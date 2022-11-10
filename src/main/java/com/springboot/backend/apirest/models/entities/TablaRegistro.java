@@ -25,11 +25,6 @@ import javax.persistence.Table;
 @Table(name = "tabla_registro")
 public class TablaRegistro implements Serializable {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-
 	@Id
 	@Column(name = "cod_Registro")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

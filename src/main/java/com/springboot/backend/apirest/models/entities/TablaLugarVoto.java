@@ -27,11 +27,6 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 @Table(name = "tabla_lugar")
 public class TablaLugarVoto implements Serializable {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-
 	@Id
 	@Column(name = "cod_lugar")
 	private String codLugarVoto;

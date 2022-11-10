@@ -29,11 +29,6 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 @Table(name = "tabla_mesa")
 public class TablaMesa implements Serializable {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-
 	@Id
 	@Column(name = "cod_Mesa")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
